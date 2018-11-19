@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: #bfc0c1;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    color: #bfc0c1;
+}
+
+.head {
+    background-color: black;
+    text-align: center;
+}
+
+
+
+nav li a {
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+ul {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    text-align: center;
+    background-color: #e84040;
+    font-size: 30px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+main {
+    align-items: stretch;
+    flex-direction: row;
+    color: #bfc0c1;
+    background-color: #161616;
+
+}
+
+
+
+h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+.imgarticles {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textarticles {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textarticle1 {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 40px;
+    margin-left: 70px;
+}
+
+.textarticle2 {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 70px;
+    margin-left: 100px;
+}
+
+h4 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    border-top-style: solid;
+    font-size: 55px;
+}
+
+.videoarticles {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textarticle3 {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 40px;
+    margin-left: 140px;
+}
+
+.textarticle4 {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    margin-right: 70px;
+    margin-left: 180px;
+}
+
+.video3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.textarticle5 {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h5 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    border-top-style: solid;
+    font-size: 55px;
+}
+
+.updates a {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 10%;
+    font-size: 27px;
+    list-style: none;
+    color: #bfc0c1;
+    background-color: #161616;
+
+}
+
+footer {
+    background-color: #161616;
+    color: #bfc0c1;
+    text-align: center;
+    border-top-style: solid;
+
+}
