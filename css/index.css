@@ -1,20 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
 * {
+    max-width: 1300px;
+    margin: auto;
     margin: 0;
     padding: 0;
 }
 
+.reg {
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 20px;
+    color:#bfc0c1;
+    
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    background-color: #161616;
+}
 
 h1 {
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
     margin-bottom: 15px;
+    margin-left: 150px;
 }
 
 h2 {
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
+    padding-bottom: 10px;
+    margin-left: 150px;
 }
 
 .head {
@@ -29,6 +48,7 @@ nav li a {
     text-decoration: none;
     color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 
@@ -37,6 +57,7 @@ nav li a {
 ul {
     font-family: 'Varela Round', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     background-color: #e84040;
     font-size: 30px;
@@ -49,22 +70,59 @@ main {
     flex-direction: row;
     color: #bfc0c1;
     background-color: #161616;
+    text-align: center;
 
 }
 
 
 
 h3 {
+    margin-top: 10px;
     font-family: 'Varela Round', sans-serif;
     font-size: 55px;
     text-align: center;
 }
 
-.imgarticles {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
+@media (min-width:750px) {
+    .imgarticles {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .videoarticles {
+        border-left-style: solid;
+        border-right-style: solid;
+        font-family: 'Varela Round', sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .videoarticle3 {
+        display: flex;
+        border-left-style: solid;
+        border-right-style: solid;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .video3 {
+        display: flex;
+        justify-content:space-around;
+    }
 }
+
+
+.imgarticle1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgarticle2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 .textarticles {
     font-family: 'Varela Round', sans-serif;
@@ -78,14 +136,14 @@ h3 {
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 40px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .textarticle2 {
     display: flex;
     font-family: 'Varela Round', sans-serif;
-    margin-right: 70px;
-    margin-left: 100px;
+    margin-right: 40px;
+    margin-left: 50px;
 }
 
 h4 {
@@ -96,31 +154,30 @@ h4 {
     font-size: 55px;
 }
 
-.videoarticles {
-    font-family: 'Varela Round', sans-serif;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+.imgarticles {
+    border-left-style: solid;
+    border-right-style: solid;
 }
+
+
 
 .textarticle3 {
     display: flex;
     font-family: 'Varela Round', sans-serif;
-    margin-right: 40px;
-    margin-left: 140px;
+    margin-right: 20px;
+    margin-left: 13px;
 }
 
 .textarticle4 {
     display: flex;
     font-family: 'Varela Round', sans-serif;
-    margin-right: 70px;
-    margin-left: 180px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .video3 {
-    margin-top: 50px;
     text-align: center;
+    
 }
 
 .textarticle5 {
@@ -140,9 +197,14 @@ h5 {
     font-size: 55px;
 }
 
+.updates {
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
 .updates a {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-basis: 10%;
     font-size: 27px;
     list-style: none;
@@ -152,6 +214,7 @@ h5 {
 }
 
 footer {
+    margin-top: 25px;
     background-color: #161616;
     color: #bfc0c1;
     text-align: center;
