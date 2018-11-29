@@ -13,12 +13,34 @@ body {
     background-color: #161616;
 }
 
+.form {
+    text-decoration: none;
+    float: right;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-right: 25px;
+    color: #e84040;
+    font-weight: bold;
+
+}
+.sign-up {
+    text-decoration: none;
+    color: #e84040;
+}
+
+.sign-in {
+    text-decoration: none;
+    color: #e84040;
+    margin-left: 15px;
+}
+
 h1 {
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
     margin-bottom: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 215px;
 }
 
 h2 {
@@ -27,13 +49,13 @@ h2 {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
+    margin-left: 215px;
 }
 
 .head {
     background-color: black;
     text-align: center;
 }
-
 
 
 nav li a {
@@ -84,13 +106,13 @@ h3 {
         border-left-style: solid;
         border-right-style: solid;
         text-align: center;
-        
+
     }
     .imgarticle1 {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
     .imgarticle2 {
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
     .videoarticles {
         border-left-style: solid;
@@ -116,12 +138,12 @@ h3 {
 
 
 .imgarticle1 {
-    display: flex;
+    margin: auto;
     flex-wrap: wrap;
 }
 
 .imgarticle2 {
-    display: flex;
+    margin: auto;
     flex-wrap: wrap;
 
 }
@@ -219,5 +241,13 @@ footer {
     color: #bfc0c1;
     text-align: center;
     border-top-style: solid;
+
+}
+
+#txt {
+    color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 }
