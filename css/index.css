@@ -14,7 +14,11 @@ header {
 body {
     max-width: 980px;
     margin: auto;
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
+}
+
+.back12 {
+    z-index: -1;
 }
 
 .background-opacity {
