@@ -12,14 +12,22 @@
 <body>
     <main>
         <div class="form">
-            <h1>Use an existing account you have on GameNews.com</h1>
+            <h1>Create a new GameNews.com account!</h1>
             <label>
                <h2>UserName:</h2>
                <input type="username" class = "username">
             </label>
             <label>
+               <h3>Email:</h3>
+               <input type="email" class = "email">
+            </label>
+            <label>
                 <h4>Password:</h4>
                 <input type="text" class = "password">
+            </label>
+            <label>
+                <h5>Repeat password</h5>
+                <input type="text" class = "repeat-password">
             </label>
             <label></br>
                 <input type="submit" class = "submit">
@@ -55,7 +63,7 @@
     h1 {
         font-size: 45px;
         margin-top: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     h3 {
@@ -78,7 +86,7 @@
         border-color: #bfc0c1;
         color: #bfc0c1;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .username {
@@ -88,8 +96,22 @@
         color: #bfc0c1;
     }
 
+    .email {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
 
     .password {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+
+    .repeat-password {
         background-color: #161616;
         width: 350px;
         height: 30px;

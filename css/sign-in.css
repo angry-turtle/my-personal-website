@@ -1,41 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/sign-in.css">
-    <title>Welcome!</title>
-</head>
-
-<body>
-    <main>
-        <div class="form">
-            <h1>Use an existing account you have on GameNews.com</h1>
-            <label>
-               <h2>UserName:</h2>
-               <input type="username" class = "username">
-            </label>
-            <label>
-                <h4>Password:</h4>
-                <input type="text" class = "password">
-            </label>
-            <label></br>
-                <input type="submit" class = "submit">
-            </label>
-
-        </div>
-    </main>
-</body>
-
-</html>
-
-
-
-
-
-<style>
     * {
         max-width: 880px;
         margin: auto;
@@ -55,7 +17,7 @@
     h1 {
         font-size: 45px;
         margin-top: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     h3 {
@@ -78,7 +40,7 @@
         border-color: #bfc0c1;
         color: #bfc0c1;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 40px;
     }
 
     .username {
@@ -88,8 +50,22 @@
         color: #bfc0c1;
     }
 
+    .email {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
 
     .password {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+
+    .repeat-password {
         background-color: #161616;
         width: 350px;
         height: 30px;
@@ -104,4 +80,3 @@
         height: 40px;
         color: #bfc0c1;
     }
-</style>

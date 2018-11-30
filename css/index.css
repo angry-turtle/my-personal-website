@@ -6,12 +6,23 @@
     padding: 0;
 }
 
+header {
+    opacity: 0.85;
+}
+
 
 body {
     max-width: 980px;
     margin: auto;
-    background-color: #161616;
+    background-image: url(/img/back.jpg);
 }
+
+.background-opacity {
+  background: rgb(46, 46, 48,0.6);
+    
+}
+
+
 
 .form {
     text-decoration: none;
@@ -81,9 +92,10 @@ ul {
 }
 
 main {
+    border-left-style: solid;
+    border-right-style: solid;
     align-items: stretch;
     color: #bfc0c1;
-    background-color: #161616;
     text-align: center;
     justify-content: space-around;
 
@@ -92,7 +104,7 @@ main {
 
 
 h3 {
-    margin-top: 10px;
+    color: #eae2ff;
     font-family: 'Varela Round', sans-serif;
     font-size: 55px;
     text-align: center;
@@ -103,8 +115,6 @@ h3 {
         padding-left: 30px;
         display: flex;
         justify-content: space-around;
-        border-left-style: solid;
-        border-right-style: solid;
         text-align: center;
 
     }
@@ -115,8 +125,6 @@ h3 {
         flex-wrap: wrap;
     }
     .videoarticles {
-        border-left-style: solid;
-        border-right-style: solid;
         font-family: 'Varela Round', sans-serif;
         margin-top: 20px;
         text-align: center;
@@ -125,8 +133,6 @@ h3 {
     }
     .videoarticle3 {
         display: flex;
-        border-left-style: solid;
-        border-right-style: solid;
         margin-top: 50px;
         text-align: center;
     }
@@ -138,11 +144,13 @@ h3 {
 
 
 .imgarticle1 {
+    color: #eae2ff;
     margin: auto;
     flex-wrap: wrap;
 }
 
 .imgarticle2 {
+    color: #eae2ff;
     margin: auto;
     flex-wrap: wrap;
 
@@ -150,6 +158,7 @@ h3 {
 
 
 .textarticles {
+    color: #eae2ff;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -158,20 +167,23 @@ h3 {
 }
 
 .textarticle1 {
+    background: rgb(46, 46, 48,0.6);
     display: flex;
     font-family: 'Varela Round', sans-serif;
-    margin-right: 40px;
-    margin-left: 60px;
+    margin-right: 13px;
+    margin-left: 13px;
 }
 
 .textarticle2 {
+    background: rgb(46, 46, 48,0.6);
     display: flex;
     font-family: 'Varela Round', sans-serif;
-    margin-right: 40px;
-    margin-left: 50px;
+    margin-right: 14px;
+    margin-left: 13px;
 }
 
 h4 {
+    color: #eae2ff;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin-top: 25px;
@@ -184,6 +196,8 @@ h4 {
 
 
 .textarticle3 {
+    color: #eae2ff;
+    background: rgb(46, 46, 48,0);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 20px;
@@ -191,6 +205,8 @@ h4 {
 }
 
 .textarticle4 {
+    color: #eae2ff;
+    background: rgb(46, 46, 48,0);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 40px;
@@ -203,6 +219,7 @@ h4 {
 }
 
 .textarticle5 {
+    color: #eae2ff;
     display: flex;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
@@ -212,6 +229,7 @@ h4 {
 }
 
 h5 {
+    color: #eae2ff;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin-top: 25px;
@@ -220,25 +238,29 @@ h5 {
 }
 
 .updates {
-    border-left-style: solid;
-    border-right-style: solid;
+    color: #eae2ff;
 }
 
 .updates a {
+    color: #eae2ff;
     display: flex;
     justify-content: center;
     flex-basis: 10%;
     font-size: 27px;
     list-style: none;
-    color: #bfc0c1;
-    background-color: #161616;
 
 }
 
+h6 {
+    color: #eae2ff;
+    text-align: center;
+    font-size: 40px;
+}
+
 footer {
+    background: rgb(46, 46, 48,0.5);
     margin-top: 25px;
-    background-color: #161616;
-    color: #bfc0c1;
+    color: #eae2ff;
     text-align: center;
     border-top-style: solid;
 
