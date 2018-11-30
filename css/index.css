@@ -10,6 +10,10 @@ header {
     opacity: 0.85;
 }
 
+#clock {
+    background-color:white;
+    opacity: 0.5;
+}
 
 body {
     max-width: 980px;
