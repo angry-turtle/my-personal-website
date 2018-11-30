@@ -167,7 +167,6 @@ h3 {
 }
 
 .textarticle1 {
-    background: rgb(46, 46, 48,0.6);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 13px;
@@ -175,7 +174,6 @@ h3 {
 }
 
 .textarticle2 {
-    background: rgb(46, 46, 48,0.6);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 14px;
