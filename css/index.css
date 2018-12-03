@@ -77,26 +77,32 @@ h2 {
 }
 
 
-nav li a {
-    font-family: 'Varela Round', sans-serif;
-    text-decoration: none;
-    color: #ffffff;
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-
+    justify-content:space-around;
+    font-size: 20px;
+    
 }
 
-ul {
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-    background-color: #e84040;
-    font-size: 30px;
-    list-style: none;
-    justify-content: space-around;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color:white;
 }
 
 main {
@@ -120,7 +126,6 @@ h3 {
 
 @media (min-width:750px) {
     .imgarticles {
-        padding-left: 30px;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -148,8 +153,23 @@ h3 {
         display: flex;
         justify-content: space-around;
     }
+    
 }
 
+.hotline-miami {
+    border:3px solid grey;
+    margin-bottom: 5px;
+}
+
+.artifact {
+    border:3px solid grey;
+    margin-bottom: 5px;
+}
+
+.artifact-article {
+    margin-right: 40px;
+    text-align: center;
+}
 
 .imgarticle1 {
     color: #eae2ff;
@@ -226,7 +246,6 @@ h4 {
 
 .textarticle5 {
     color: #eae2ff;
-    display: flex;
     font-family: 'Varela Round', sans-serif;
     font-size: 20px;
     margin-top: 10px;

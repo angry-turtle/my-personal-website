@@ -1,0 +1,87 @@
+  * {
+        max-width: 880px;
+        margin: auto;
+    }
+
+    body {
+        background-image: url(../img/sign.png);
+        background-color: #161616;
+    }
+    
+    main {
+        padding-top:15px;
+    }
+
+
+    h2 {
+        font-size: 30px;
+
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .form {
+        border-left-style: solid;
+        border-right-style: solid;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: #bfc0c1;
+        color: #bfc0c1;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .username {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+    .email {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+    .password {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+
+    .repeat-password {
+        background-color: #161616;
+        width: 350px;
+        height: 30px;
+        color: #bfc0c1;
+    }
+
+    .submit {
+        font-weight: bold;
+        background-color: #161616;
+        margin-top: 40px;
+        margin-bottom:40px;
+        width: 100px;
+        height: 40px;
+        color: #bfc0c1;
+    }
