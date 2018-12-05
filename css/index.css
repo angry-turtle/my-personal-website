@@ -63,6 +63,7 @@ h1 {
     justify-content: center;
     margin-left: 215px;
 }
+
 h2 {
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
@@ -91,7 +92,7 @@ ul {
     border: 3px solid grey;
     border-radius: 40px;
     margin-top: 15px;
-    
+
 
 }
 
@@ -191,7 +192,7 @@ h3 {
 }
 
 .artifact:hover {
-   box-shadow: 0 0 20px; 
+    box-shadow: 0 0 20px;
 }
 
 .artifact-article {
@@ -321,7 +322,7 @@ h5 {
 }
 
 .updates a:hover {
-   box-shadow: 0 0 10px; 
+    box-shadow: 0 0 10px;
 }
 
 h6 {
