@@ -1,24 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
 
-* {
-    max-width: 1300px;
-    margin: 0;
-    padding: 0;
-}
+
 
 header {
+    padding-top: 5px;
     opacity: 0.85;
+    border-radius: 40px;
 }
 
 #clock {
-    background-color:white;
+    background-color: white;
     opacity: 0.5;
 }
 
 body {
     max-width: 980px;
     margin: auto;
-    background-image: url(../img/background.png);
+    background-image: url(https://us.123rf.com/450wm/yamonstro/yamonstro1604/yamonstro160400012/56835673-vector-dark-geometric-halftone-seamless-pattern-retro-pointillism-vector-seamless-background-vector-.jpg?ver=6);
 }
 
 .back12 {
@@ -26,8 +24,9 @@ body {
 }
 
 .background-opacity {
-  background: rgb(46, 46, 48,0.6);
-    
+    background: rgb(46, 46, 48, 0.6);
+    border-radius: 40px;
+
 }
 
 
@@ -42,6 +41,8 @@ body {
     font-weight: bold;
 
 }
+
+
 .sign-up {
     text-decoration: none;
     color: #e84040;
@@ -54,6 +55,7 @@ body {
 }
 
 h1 {
+    font-weight: bold;
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
     margin-bottom: 15px;
@@ -61,7 +63,6 @@ h1 {
     justify-content: center;
     margin-left: 215px;
 }
-
 h2 {
     font-family: 'Varela Round', sans-serif;
     color: #bfc0c1;
@@ -72,6 +73,8 @@ h2 {
 }
 
 .head {
+    border-radius: 20px;
+    border: 3px solid grey;
     background-color: black;
     text-align: center;
 }
@@ -82,13 +85,22 @@ ul {
     overflow: hidden;
     background-color: #333;
     display: flex;
-    justify-content:space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 20px;
+    border: 3px solid grey;
+    border-radius: 40px;
+    margin-top: 15px;
     
+
 }
 
 li {
+    display: flex;
+    flex-wrap: wrap;
     float: left;
+    margin-right: 40px;
+
 }
 
 li a {
@@ -97,12 +109,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    flex-wrap: wrap;
+
 }
 
 li a:hover {
     background-color: #111;
     text-decoration: none;
-    color:white;
+    color: white;
+    border-radius: 40px;
 }
 
 main {
@@ -112,6 +127,7 @@ main {
     color: #bfc0c1;
     text-align: center;
     justify-content: space-around;
+    border-radius: 40px;
 
 }
 
@@ -149,21 +165,33 @@ h3 {
         margin-top: 50px;
         text-align: center;
     }
-    .video3 {
+    .video-3 {
         display: flex;
         justify-content: space-around;
     }
-    
+
 }
 
 .hotline-miami {
-    border:3px solid grey;
+    box-shadow: 0 0 10px;
+    border-radius: 40px;
+    border: 3px solid grey;
     margin-bottom: 5px;
 }
 
+.hotline-miami:hover {
+    box-shadow: 0 0 20px;
+}
+
 .artifact {
-    border:3px solid grey;
+    box-shadow: 0 0 10px;
+    border-radius: 40px;
+    border: 3px solid grey;
     margin-bottom: 5px;
+}
+
+.artifact:hover {
+   box-shadow: 0 0 20px; 
 }
 
 .artifact-article {
@@ -173,7 +201,6 @@ h3 {
 
 .imgarticle1 {
     color: #eae2ff;
-    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -223,25 +250,39 @@ h4 {
 
 .textarticle3 {
     color: #eae2ff;
-    background: rgb(46, 46, 48,0);
+    background: rgb(46, 46, 48, 0);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 20px;
     margin-left: 13px;
+    border-radius: 40px;
 }
 
 .textarticle4 {
     color: #eae2ff;
-    background: rgb(46, 46, 48,0);
+    background: rgb(46, 46, 48, 0);
     display: flex;
     font-family: 'Varela Round', sans-serif;
     margin-right: 40px;
     margin-left: 40px;
+    border-radius: 40px;
+}
+
+.video-3 {
+    text-align: center;
+
+}
+
+.video1 {
+    box-shadow: 0 0 10px;
+}
+
+.video2 {
+    box-shadow: 0 0 10px;
 }
 
 .video3 {
-    text-align: center;
-
+    box-shadow: 0 0 10px;
 }
 
 .textarticle5 {
@@ -251,6 +292,7 @@ h4 {
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
+    border-radius: 40px;
 }
 
 h5 {
@@ -264,6 +306,7 @@ h5 {
 
 .updates {
     color: #eae2ff;
+    border-radius: 40px;
 }
 
 .updates a {
@@ -273,7 +316,12 @@ h5 {
     flex-basis: 10%;
     font-size: 27px;
     list-style: none;
+    border-radius: 40px;
 
+}
+
+.updates a:hover {
+   box-shadow: 0 0 10px; 
 }
 
 h6 {
@@ -283,11 +331,12 @@ h6 {
 }
 
 footer {
-    background: rgb(46, 46, 48,0.5);
+    background: rgb(46, 46, 48, 0.5);
     margin-top: 25px;
     color: #eae2ff;
     text-align: center;
     border-top-style: solid;
+    border-radius: 40px;
 
 }
 
